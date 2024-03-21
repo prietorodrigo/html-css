@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilo.css"/>
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                    TADS
+                    <br>
+                    <p>Tecnólogo em Análise e<br> Desenvolvimento de Sistemas</p></a>
+                </div>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="disciplinas.html">Disciplinas</a>
+                    <a href="formulario.html">Inscreva-se</a>
+                    <a href="fotos.html">Fotos</a>
+                    <a href="videos.html">Vídeos</a>
+                </nav>
+                <br>
+            </div> 
+        </header>
+    </head>
+    <body>
+        <h2>Formulário de inscrição ao curso</h2>
+        <form>
+            <p>Nome:</p>
+            <input type="text" name="nome" id="nome" class="field"/><br>
+
+            <p>Sobrenome:</p>
+            <input type="text" name="sobrenome" id="sobrenome" class="field"/><br>
+
+            <p>R.G./C.I. (somente números):</p>
+            <input type="number" name="identidade" id="identidade" class="field"/><br>
+            
+            <p>Endereço:</p>
+            <input type="text" name="endereco" id="endereco" class="field"/><br>
+
+            <p>Cidade:</p>
+            <input type="text" name="cidade" id="cidade" class="field"/><br>
+            
+            <p>Nacionalidade:</p>
+            <input type="text" name="nacionalidade" id="nacionalidade" class="field"/><br>
+            
+            <p>Telefone:</p>
+            <input type="number" name="telefone" id="telefone" class="field"/><br>
+            
+            <p>E-mail:</p>
+            <input type="email" name="email" id="email" class="field"/><br>
+            
+            <p>Possui computador?:</p>
+            <input type="radio" name="computador" id="computador"/>Sim
+            <input type="radio" name="computador" id="computador"/>Não<br>
+            
+            <p>Quais dispositivos você possui?</p>
+            <input type="checkbox" id="cbox1" value="first_checkbox">
+            <label for="cbox1">Desktop</label>
+            <br>
+            <input type="checkbox" id="cbox2" value="second_checkbox">
+            <label for="cbox2">Laptop</label>
+            <br>
+            <input type="checkbox" id="cbox3" value="third_checkbox">
+            <label for="cbox3">Celular</label>
+            <br>
+            <input type="checkbox" id="cbox4" value="fourth_checkbox">
+            <label for="cbox4">Tablet</label><br>
+
+            <p>Foto:</p>
+            <input type="file" name="foto" id="foto"/><br><br>
+
+            <p class="center-content"><button type="submit" class="field btn btn-green">Enviar dados</button></p>
+        </form>
+    </body>
+</html>
